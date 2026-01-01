@@ -102,7 +102,7 @@ CREATE TABLE youtube_history (
 ### 5. Run the App
 
 ```bash
-streamlit run got_wrapped.py
+streamlit run streamlit_app.py
 ```
 
 Open http://localhost:8501 and start connecting your data!
