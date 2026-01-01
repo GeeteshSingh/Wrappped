@@ -1,9 +1,9 @@
 streamlit==1.31.1
 pandas==2.1.4
-numpy==1.24.3
-supabase==2.0.3
+numpy==1.26.4
+supabase-py==2.4.0
+python-dotenv==1.0.1
 requests-oauthlib==2.0.0
-python-dotenv==1.0.0
 requests==2.31.0
 python-dateutil==2.8.2
 websockets==12.0
