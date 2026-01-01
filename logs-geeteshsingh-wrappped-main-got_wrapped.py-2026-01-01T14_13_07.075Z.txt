@@ -1,0 +1,458 @@
+
+[     UTC     ] Logs for wrappped.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[14:01:03] 🖥 Provisioning machine...
+[14:01:03] 🎛 Preparing system...
+[14:01:03] ⛓ Spinning up manager process...
+[14:01:58] 🚀 Starting up repository: 'wrappped', branch: 'main', main module: 'got_wrapped.py'
+[14:01:58] 🐙 Cloning repository...
+[14:02:14] 🐙 Cloning into '/mount/src/wrappped'...
+Updating files:   9% (1205/12663)Updating files:  10% (1267/12663)Updating files:  11% (1393/12663)Updating files:  12% (1520/12663)Updating files:  13% (1647/12663)Updating files:  14% (1773/12663)Updating files:  15% (1900/12663)Updating files:  16% (2027/12663)Updating files:  17% (2153/12663)Updating files:  17% (2260/12663)Updating files:  18% (2280/12663)Updating files:  19% (2406/12663)Updating files:  20% (2533/12663)Updating files:  21% (2660/12663)Updating files:  22% (2786/12663)Updating files:  23% (2913/12663)Updating files:  24% (3040/12663)Updating files:  25% (3166/12663)Updating files:  26% (3293/12663)Updating files:  27% (3420/12663)Updating files:  28% (3546/12663)Updating files:  29% (3673/12663)Updating files:  30% (3799/12663)Updating files:  31% (3926/12663)Updating files:  32% (4053/12663)Updating files:  33% (4179/12663)Updating files:  34% (4306/12663)Updating files:  34% (4416/12663)Updating files:  35% (4433/12663)Updating files:  36% (4559/12663)Updating files:  37% (4686/12663)Updating files:  38% (4812/12663)Updating files:  39% (4939/12663)Updating files:  40% (5066/12663)Updating files:  41% (5192/12663)Updating files:  42% (5319/12663)Updating files:  43% (5446/12663)Updating files:  44% (5572/12663)Updating files:  45% (5699/12663)Updating files:  45% (5814/12663)Updating files:  46% (5825/12663)Updating files:  47% (5952/12663)Updating files:  48% (6079/12663)Updating files:  49% (6205/12663)Updating files:  50% (6332/12663)Updating files:  51% (6459/12663)Updating files:  52% (6585/12663)Updating files:  53% (6712/12663)Updating files:  54% (6839/12663)Updating files:  55% (6965/12663)Updating files:  56% (7092/12663)Updating files:  57% (7218/12663)Updating files:  57% (7322/12663)Updating files:  58% (7345/12663)Updating files:  59% (7472/12663)Updating files:  60% (7598/12663)Updating files:  61% (7725/12663)Updating files:  62% (7852/12663)Updating files:  63% (7978/12663)Updating files:  63% (8005/12663)Updating files:  64% (8105/12663)Updating files:  65% (8231/12663)Updating files:  66% (8358/12663)Updating files:  67% (8485/12663)Updating files:  68% (8611/12663)Updating files:  69% (8738/12663)Updating files:  70% (8865/12663)Updating files:  71% (8991/12663)Updating files:  72% (9118/12663)Updating files:  73% (9244/12663)Updating files:  74% (9371/12663)Updating files:  75% (9498/12663)Updating files:  76% (9624/12663)Updating files:  76% (9660/12663)Updating files:  77% (9751/12663)Updating files:  78% (9878/12663)Updating files:  79% (10004/12663)Updating files:  80% (10131/12663)Updating files:  81% (10258/12663)Updating files:  82% (10384/12663)Updating files:  83% (10511/12663)Updating files:  84% (10637/12663)Updating files:  85% (10764/12663)Updating files:  86% (10891/12663)Updating files:  87% (11017/12663)Updating files:  88% (11144/12663)Updating files:  89% (11271/12663)Updating files:  90% (11397/12663)Updating files:  91% (11524/12663)Updating files:  92% (11650/12663)Updating files:  93% (11777/12663)Updating files:  94% (11904/12663)Updating files:  95% (12030/12663)Updating files:  96% (12157/12663)Updating files:  97% (12284/12663)Updating files:  98% (12410/12663)Updating files:  99% (12537/12663)Updating files: 100% (12663/12663)Updating files: 100% (12663/12663), done.
+
+[14:02:14] 🐙 Cloned repository!
+[14:02:14] 🐙 Pulling code changes from Github...
+[14:02:19] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.9 environment at /home/adminuser/venv
+  × No solution found when resolving dependencies:
+  ╰─▶ Because only the following versions of numpy are available:
+          numpy<=1.26.0
+          numpy==1.26.1
+          numpy==1.26.2
+          numpy==1.26.3
+          numpy==1.26.4
+          numpy>2
+      and pandas==2.1.4 depends on numpy>=1.26.0,<2, we can conclude that
+      pandas==2.1.4 depends on numpy>=1.26.0,<=1.26.4.
+      And because you require pandas==2.1.4 and numpy==1.24.3, we can conclude
+      that your requirements are unsatisfiable.
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.9 environment at /home/adminuser/venv
+Resolved 4 packages in 124ms
+Prepared 4 packages in 372ms
+Installed 4 packages in 14ms
+ + markdown-it-py==4.0.0
+ + mdurl==[2026-01-01 14:02:21.166970] 0.1.2
+ + pygments==2.19.2
+ + rich==14.2.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit==1.31.1 (from -r /mount/src/wrappped/requirements.txt (line 1))
+  Downloading streamlit-1.31.1-py2.py3-none-any.whl.metadata (8.1 kB)
+Collecting pandas==2.1.4 (from -r /mount/src/wrappped/requirements.txt (line 2))
+  Downloading pandas-2.1.4.tar.gz (4.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 14.1 MB/s eta 0:00:00[2026-01-01 14:02:24.091720] 
+  Installing build dependencies: started
+  Installing build dependencies: still running...
+  Installing build dependencies: still running...
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [105 lines of output]
+      + meson setup /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2 /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/.mesonpy-lxiizaur/build -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --vsenv --native-file=/tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/.mesonpy-lxiizaur/build/meson-python-native-file.ini
+      The Meson build system
+      Version: 1.2.1
+      Source dir: /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2
+      Build dir: /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/.mesonpy-lxiizaur/build
+      Build type: native build
+      Project name: pandas
+      Project version: 2.1.4
+      C compiler for the host machine: cc (gcc 12.2.0 "cc (Debian 12.2.0-14+deb12u1) 12.2.0")
+      C linker for the host machine: cc ld.bfd 2.40
+      C++ compiler for the host machine: c++ (gcc 12.2.0 "c++ (Debian 12.2.0-14+deb12u1) 12.2.0")
+      C++ linker for the host machine: c++ ld.bfd 2.40
+      Cython compiler for the host machine: cython (cython 0.29.37)
+      Host machine cpu family: x86_64
+      Host machine cpu: x86_64
+      Program python found: YES (/home/adminuser/venv/bin/python)
+      Did not find pkg-config by name 'pkg-config'
+      Found Pkg-config: NO
+      Run-time dependency python found: YES 3.13
+      Build targets in project: 53
+      
+      pandas 2.1.4
+      
+        User defined options
+          Native files: /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/.mesonpy-lxiizaur/build/meson-python-native-file.ini
+          buildtype   : release
+          vsenv       : True
+          b_ndebug    : if-release
+          b_vscrt     : md
+      
+      Found ninja-1.13.0.git.kitware.jobserver-pipe-1 at /tmp/pip-build-env-xgumvune/normal/bin/ninja
+      
+      Visual Studio environment is needed to run Ninja. It is recommended to use Meson wrapper:
+      /tmp/pip-build-env-xgumvune/overlay/bin/meson compile -C .
+      + /tmp/pip-build-env-xgumvune/normal/bin/ninja
+      [1/151] Generating pandas/_libs/algos_common_helper_pxi with a custom command
+      [2/151] Generating pandas/_libs/khash_primitive_helper_pxi with a custom command
+      [3/151] Generating pandas/_libs/algos_take_helper_pxi with a custom command
+      [4/151] Generating pandas/_libs/index_class_helper_pxi with a custom command
+      [5/151] Generating pandas/_libs/intervaltree_helper_pxi with a custom command
+      [6/151] Generating pandas/_libs/sparse_op_helper_pxi with a custom command
+      [7/151] Generating pandas/_libs/hashtable_class_helper_pxi with a custom command
+      [8/151] Generating pandas/_libs/hashtable_func_helper_pxi with a custom command
+      [9/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/base.pyx
+      [10/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/dtypes.pyx
+      [11/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/ccalendar.pyx
+      [12/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/arrays.pyx
+      [13/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/nattype.pyx
+      [14/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/np_datetime.pyx
+      [15/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/indexing.pyx
+      [16/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/conversion.pyx
+      [17/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/timezones.pyx
+      [18/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/vectorized.pyx
+      [19/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/offsets.pyx
+      [20/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/strptime.pyx
+      [21/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/timestamps.pyx
+      [22/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/parsing.pyx
+      [23/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/fields.pyx
+      [24/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/hashing.pyx
+      [25/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/tzconversion.pyx
+      [26/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/timedeltas.pyx
+      [27/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/ops_dispatch.pyx
+      [28/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/missing.pyx
+      [29/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslibs/period.pyx
+      [30/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/byteswap.pyx
+      [31/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/properties.pyx
+      [32/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/internals.pyx
+      [33/151] Compiling C object pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o
+      FAILED: [code=1] pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o
+      cc -Ipandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../pip-build-env-xgumvune/overlay/lib/python3.13/site-packages/numpy/core/include -I../../pandas/_libs/include -I/usr/local/include/python3.13 -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -w -std=c99 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -fPIC -MD -MQ pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -MF pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o.d -o pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -c pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c: In function ‘__Pyx_PyInt_As_long’:
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:5397:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+       5397 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+            |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /usr/local/include/python3.13/longobject.h:107,
+                       from /usr/local/include/python3.13/Python.h:82,
+                       from pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:6:
+      /usr/local/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c: In function ‘__Pyx_PyInt_As_int’:
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:5631:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+       5631 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+            |                           ^~~~~~~~~~~~~~~~~~~
+      /usr/local/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      [34/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/testing.pyx
+      [35/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/sas.pyx
+      [36/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/ops.pyx
+      [37/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/index.pyx
+      [38/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/window/indexers.pyx
+      [39/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/reshape.pyx
+      [40/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/writers.pyx
+      [41/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/parsers.pyx
+      [42/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/lib.pyx
+      [43/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/window/aggregations.pyx
+      [44/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/tslib.pyx
+      [45/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/interval.pyx
+      [46/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/sparse.pyx
+      [47/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/hashtable.pyx
+      [48/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/groupby.pyx
+      [49/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/algos.pyx
+      [50/151] Compiling Cython source /tmp/pip-install-b9n59igj/pandas_b61c84262a4d4d0bb93d86452bdee3d2/pandas/_libs/join.pyx
+      ninja: build stopped: subcommand failed.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+[notice] A new release of pip is available: 24.0 -> 25.3
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.2.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.2.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 10.9 MB/s eta 0:00:00[2026-01-01 14:05:21.991635] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 111.7 MB/s eta 0:00:00[2026-01-01 14:05:22.006199] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 67.0 MB/s eta 0:00:00[2026-01-01 14:05:22.038886] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.2.0
+    Uninstalling rich-14.2.0:
+      Successfully uninstalled rich-14.2.0
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.2.0
+
+[notice] A new release of pip is available: 24.0 -> 25.3
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[14:05:24] ❗️ installer returned a non-zero exit code
+[14:05:24] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
+[14:05:44] 🖥 Provisioning machine...
+[14:05:50] 🎛 Preparing system...
+[14:05:48] 🚀 Starting up repository: 'wrappped', branch: 'main', main module: 'got_wrapped.py'
+[14:05:48] 🐙 Cloning repository...
+[14:05:51] ⛓ Spinning up manager process...
+[14:05:55] 🐙 Cloning into '/mount/src/wrappped'...
+Updating files:  39% (5035/12663)Updating files:  40% (5066/12663)Updating files:  41% (5192/12663)Updating files:  42% (5319/12663)Updating files:  43% (5446/12663)Updating files:  44% (5572/12663)Updating files:  45% (5699/12663)Updating files:  46% (5825/12663)Updating files:  47% (5952/12663)Updating files:  48% (6079/12663)Updating files:  49% (6205/12663)Updating files:  50% (6332/12663)Updating files:  51% (6459/12663)Updating files:  52% (6585/12663)Updating files:  53% (6712/12663)Updating files:  54% (6839/12663)Updating files:  55% (6965/12663)Updating files:  56% (7092/12663)Updating files:  57% (7218/12663)Updating files:  58% (7345/12663)Updating files:  59% (7472/12663)Updating files:  60% (7598/12663)Updating files:  61% (7725/12663)Updating files:  62% (7852/12663)Updating files:  63% (7978/12663)Updating files:  63% (8008/12663)Updating files:  64% (8105/12663)Updating files:  65% (8231/12663)Updating files:  66% (8358/12663)Updating files:  67% (8485/12663)Updating files:  68% (8611/12663)Updating files:  69% (8738/12663)Updating files:  70% (8865/12663)Updating files:  71% (8991/12663)Updating files:  72% (9118/12663)Updating files:  73% (9244/12663)Updating files:  74% (9371/12663)Updating files:  75% (9498/12663)Updating files:  76% (9624/12663)Updating files:  77% (9751/12663)Updating files:  78% (9878/12663)Updating files:  79% (10004/12663)Updating files:  80% (10131/12663)Updating files:  81% (10258/12663)Updating files:  82% (10384/12663)Updating files:  83% (10511/12663)Updating files:  84% (10637/12663)Updating files:  85% (10764/12663)Updating files:  86% (10891/12663)Updating files:  87% (11017/12663)Updating files:  88% (11144/12663)Updating files:  89% (11271/12663)Updating files:  90% (11397/12663)Updating files:  91% (11524/12663)Updating files:  92% (11650/12663)Updating files:  93% (11777/12663)Updating files:  94% (11904/12663)Updating files:  95% (12030/12663)Updating files:  96% (12157/12663)Updating files:  97% (12284/12663)Updating files:  98% (12410/12663)Updating files:  99% (12537/12663)Updating files: 100% (12663/12663)Updating files: 100% (12663/12663), done.
+
+[14:05:55] 🐙 Cloned repository!
+[14:05:55] 🐙 Pulling code changes from Github...
+[14:05:59] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.9 environment at /home/adminuser/venv
+  × No solution found when resolving dependencies:
+  ╰─▶ Because only the following versions of numpy are available:
+          numpy<=1.26.0
+          numpy==1.26.1
+          numpy==1.26.2
+          numpy==1.26.3
+          numpy==1.26.4
+          numpy>2
+      and pandas==2.1.4 depends on numpy>=1.26.0,<2, we can conclude that
+      pandas==2.1.4 depends on numpy>=1.26.0,<=1.26.4.
+      And because you require pandas==2.1.4 and numpy==1.24.3, we can conclude
+      that your requirements are unsatisfiable.
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.9 environment at /home/adminuser/venv
+Resolved 4 packages in 92ms
+Prepared 4 packages in 115ms
+Installed 4 packages in 16ms
+ + markdown-it-py==4.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.2
+ + rich[2026-01-01 14:06:00.448797] ==14.2.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit==1.31.1 (from -r /mount/src/wrappped/requirements.txt (line 1))
+  Downloading streamlit-1.31.1-py2.py3-none-any.whl.metadata (8.1 kB)
+Collecting pandas==2.1.4 (from -r /mount/src/wrappped/requirements.txt (line 2))
+  Downloading pandas-2.1.4.tar.gz (4.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 73.1 MB/s eta 0:00:00[2026-01-01 14:06:02.167655] 
+  Installing build dependencies: started
+  Installing build dependencies: still running...
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [105 lines of output]
+      + meson setup /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/.mesonpy-m5rn0h9u/build -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --vsenv --native-file=/tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/.mesonpy-m5rn0h9u/build/meson-python-native-file.ini
+      The Meson build system
+      Version: 1.2.1
+      Source dir: /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a
+      Build dir: /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/.mesonpy-m5rn0h9u/build
+      Build type: native build
+      Project name: pandas
+      Project version: 2.1.4
+      C compiler for the host machine: cc (gcc 12.2.0 "cc (Debian 12.2.0-14+deb12u1) 12.2.0")
+      C linker for the host machine: cc ld.bfd 2.40
+      C++ compiler for the host machine: c++ (gcc 12.2.0 "c++ (Debian 12.2.0-14+deb12u1) 12.2.0")
+      C++ linker for the host machine: c++ ld.bfd 2.40
+      Cython compiler for the host machine: cython (cython 0.29.37)
+      Host machine cpu family: x86_64
+      Host machine cpu: x86_64
+      Program python found: YES (/home/adminuser/venv/bin/python)
+      Did not find pkg-config by name 'pkg-config'
+      Found Pkg-config: NO
+      Run-time dependency python found: YES 3.13
+      Build targets in project: 53
+      
+      pandas 2.1.4
+      
+        User defined options
+          Native files: /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/.mesonpy-m5rn0h9u/build/meson-python-native-file.ini
+          buildtype   : release
+          vsenv       : True
+          b_ndebug    : if-release
+          b_vscrt     : md
+      
+      Found ninja-1.13.0.git.kitware.jobserver-pipe-1 at /tmp/pip-build-env-unb84uzj/normal/bin/ninja
+      
+      Visual Studio environment is needed to run Ninja. It is recommended to use Meson wrapper:
+      /tmp/pip-build-env-unb84uzj/overlay/bin/meson compile -C .
+      + /tmp/pip-build-env-unb84uzj/normal/bin/ninja
+      [1/151] Generating pandas/_libs/khash_primitive_helper_pxi with a custom command
+      [2/151] Generating pandas/_libs/algos_take_helper_pxi with a custom command
+      [3/151] Generating pandas/_libs/intervaltree_helper_pxi with a custom command
+      [4/151] Generating pandas/_libs/algos_common_helper_pxi with a custom command
+      [5/151] Generating pandas/_libs/sparse_op_helper_pxi with a custom command
+      [6/151] Generating pandas/_libs/hashtable_class_helper_pxi with a custom command
+      [7/151] Generating pandas/_libs/hashtable_func_helper_pxi with a custom command
+      [8/151] Generating pandas/_libs/index_class_helper_pxi with a custom command
+      [9/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/ccalendar.pyx
+      [10/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/base.pyx
+      [11/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/np_datetime.pyx
+      [12/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/dtypes.pyx
+      [13/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/nattype.pyx
+      [14/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/arrays.pyx
+      [15/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/indexing.pyx
+      [16/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/timezones.pyx
+      [17/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/strptime.pyx
+      [18/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/conversion.pyx
+      [19/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/timestamps.pyx
+      [20/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/vectorized.pyx
+      [21/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/period.pyx
+      [22/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/tzconversion.pyx
+      [23/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/hashing.pyx
+      [24/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/offsets.pyx
+      [25/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/parsing.pyx
+      [26/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/fields.pyx
+      [27/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/ops_dispatch.pyx
+      [28/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/properties.pyx
+      [29/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/byteswap.pyx
+      [30/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/missing.pyx
+      [31/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslibs/timedeltas.pyx
+      [32/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/internals.pyx
+      [33/151] Compiling C object pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o
+      FAILED: [code=1] pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o
+      cc -Ipandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../pip-build-env-unb84uzj/overlay/lib/python3.13/site-packages/numpy/core/include -I../../pandas/_libs/include -I/usr/local/include/python3.13 -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -w -std=c99 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -fPIC -MD -MQ pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -MF pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o.d -o pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -c pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c: In function ‘__Pyx_PyInt_As_long’:
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:5397:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+       5397 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+            |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /usr/local/include/python3.13/longobject.h:107,
+                       from /usr/local/include/python3.13/Python.h:82,
+                       from pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:6:
+      /usr/local/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c: In function ‘__Pyx_PyInt_As_int’:
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:5631:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+       5631 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+            |                           ^~~~~~~~~~~~~~~~~~~
+      /usr/local/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      [34/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/testing.pyx
+      [35/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/ops.pyx
+      [36/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/reshape.pyx
+      [37/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/sas.pyx
+      [38/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/window/indexers.pyx
+      [39/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/tslib.pyx
+      [40/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/index.pyx
+      [41/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/parsers.pyx
+      [42/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/writers.pyx
+      [43/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/lib.pyx
+      [44/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/interval.pyx
+      [45/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/window/aggregations.pyx
+      [46/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/sparse.pyx
+      [47/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/hashtable.pyx
+      [48/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/groupby.pyx
+      [49/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/algos.pyx
+      [50/151] Compiling Cython source /tmp/pip-install-jzzna_gh/pandas_ec585c5ca2bf484a9573e5f8b231d28a/pandas/_libs/join.pyx
+      ninja: build stopped: subcommand failed.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+[notice] A new release of pip is available: 24.0 -> 25.3
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.2.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.2.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 13.8 MB/s eta 0:00:00[2026-01-01 14:08:17.904261] 
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 118.3 MB/s eta 0:00:00[2026-01-01 14:08:17.918592] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 73.7 MB/s eta 0:00:00[2026-01-01 14:08:17.948568] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 4.0.0
+    Uninstalling markdown-it-py-4.0.0:
+      Successfully uninstalled markdown-it-py-4.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.2.0
+    Uninstalling rich-14.2.0:
+      Successfully uninstalled rich-14.2.0
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.2.0
+
+[notice] A new release of pip is available: 24.0 -> 25.3
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[14:08:19] ❗️ installer returned a non-zero exit code
+[14:08:19] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
